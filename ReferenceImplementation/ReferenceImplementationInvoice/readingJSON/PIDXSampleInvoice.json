@@ -1,0 +1,596 @@
+{
+    "Invoice": {
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xsi:schemaLocation": "http://www.pidx.org/schemas/v1.7 PIDXV1.7/Invoice.xsd",
+        "xmlns": "http://www.pidx.org/schemas/v1.7",
+        "xmlns:pidx": "http://www.pidx.org/schemas/v1.7",
+        "pidx:version": 1.7,
+        "pidx:transactionPurposeIndicator": "Original",
+        "pidx:InvoiceProperties": {
+            "pidx:InvoiceNumber": 908782987,
+            "pidx:InvoiceDate": "2021-06-01",
+            "pidx:PartnerInformation": [
+                {
+                    "partnerRoleIndicator": "Seller",
+                    "pidx:PartnerIdentifier": [
+                        {
+                            "partnerIdentifierIndicator": "DUNSNumber",
+                            "#text": 123456789
+                        },
+                        {
+                            "partnerIdentifierIndicator": "DUNS+4Number",
+                            "#text": 1234567897009
+                        }
+                    ],
+                    "pidx:PartnerName": "Big Supplier Norge A/S",
+                    "pidx:AddressInformation": {
+                        "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                    },
+                    "pidx:ContactInformation": [
+                        {
+                            "contactInformationIndicator": "OfficeRepresentative",
+                            "pidx:ContactName": "Joe Supplier",
+                            "pidx:Telephone": {
+                                "telephoneIndicator": "Voice",
+                                "pidx:PhoneNumber": "+1 713-456-7890"
+                            },
+                            "pidx:EmailAddress": "Joe.Supplier@bigsupplier.com"
+                        },
+                        {
+                            "contactInformationIndicator": "EnteredBy",
+                            "pidx:ContactName": "Joe Supplier",
+                            "pidx:Telephone": {
+                                "telephoneIndicator": "Voice",
+                                "pidx:PhoneNumber": "+1 713-456-7890"
+                            },
+                            "pidx:EmailAddress": "Joe.Supplier@bigsupplier.com"
+                        },
+                        {
+                            "contactInformationIndicator": "SalesRepresentative",
+                            "pidx:ContactName": "Joe Supplier",
+                            "pidx:Telephone": {
+                                "telephoneIndicator": "Voice",
+                                "pidx:PhoneNumber": "+1 713-456-7890"
+                            },
+                            "pidx:EmailAddress": "Joe.Supplier@bigsupplier.com"
+                        }
+                    ]
+                },
+                {
+                    "partnerRoleIndicator": "SoldTo",
+                    "pidx:PartnerIdentifier": {
+                        "partnerIdentifierIndicator": "DUNSNumber",
+                        "#text": 543219876
+                    },
+                    "pidx:PartnerName": "Big Oil Petroleum AS",
+                    "pidx:AddressInformation": {
+                        "pidx:AddressLine": "POSTBOX 8500",
+                        "pidx:CityName": "VANSTANGER",
+                        "pidx:PostalCode": 4035,
+                        "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                    }
+                },
+                {
+                    "partnerRoleIndicator": "BillTo",
+                    "pidx:PartnerIdentifier": {
+                        "partnerIdentifierIndicator": "DUNSNumber",
+                        "#text": 543219876
+                    },
+                    "pidx:PartnerName": "Big Oil Petroleum AS XML",
+                    "pidx:AddressInformation": {
+                        "pidx:AddressLine": "CENTRAL ACCOUNTS PAYABLE",
+                        "pidx:CityName": "VANSTANGER",
+                        "pidx:PostalCode": 4035,
+                        "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                    }
+                },
+                {
+                    "partnerRoleIndicator": "RemitTo",
+                    "pidx:PartnerIdentifier": [
+                        {
+                            "partnerIdentifierIndicator": "AssignedBySeller",
+                            "#text": "BSN207070"
+                        },
+                        {
+                            "partnerIdentifierIndicator": "DUNSNumber",
+                            "#text": 123456789
+                        },
+                        {
+                            "partnerIdentifierIndicator": "DUNS+4Number",
+                            "#text": 1234567897009
+                        }
+                    ],
+                    "pidx:PartnerName": "Big Supplier BUSINESS SUPPORT SERV",
+                    "pidx:AddressInformation": {
+                        "pidx:AddressLine": "RISAVIKA HAVNERING 14",
+                        "pidx:CityName": "ANTANGER",
+                        "pidx:PostalCode": 4056,
+                        "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                    },
+                    "pidx:ContactInformation": [
+                        {
+                            "contactInformationIndicator": "OfficeRepresentative",
+                            "pidx:ContactName": "Joe Supplier",
+                            "pidx:Telephone": {
+                                "telephoneIndicator": "Voice",
+                                "pidx:PhoneNumber": "+1 713-456-7890"
+                            },
+                            "pidx:EmailAddress": "Joe.Supplier@bigsupplier.com"
+                        },
+                        {
+                            "contactInformationIndicator": "EnteredBy",
+                            "pidx:ContactName": "Joe Supplier",
+                            "pidx:Telephone": {
+                                "telephoneIndicator": "Voice",
+                                "pidx:PhoneNumber": "+1 713-456-7890"
+                            },
+                            "pidx:EmailAddress": "Joe.Supplier@bigsupplier.com"
+                        },
+                        {
+                            "contactInformationIndicator": "SalesRepresentative",
+                            "pidx:ContactName": "Joe Supplier",
+                            "pidx:Telephone": {
+                                "telephoneIndicator": "Voice",
+                                "pidx:PhoneNumber": "+1 713-456-7890"
+                            },
+                            "pidx:EmailAddress": "Joe.Supplier@bigsupplier.com"
+                        }
+                    ]
+                },
+                {
+                    "partnerRoleIndicator": "ShipToParty",
+                    "pidx:PartnerIdentifier": {
+                        "partnerIdentifierIndicator": "AssignedBySeller",
+                        "#text": "0040118964"
+                    },
+                    "pidx:PartnerName": "Big Oil Petroleum AS",
+                    "pidx:AddressInformation": {
+                        "pidx:AddressLine": "MONGSTAD BASE",
+                        "pidx:CityName": "MONGSTAD",
+                        "pidx:PostalCode": 5954,
+                        "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                    }
+                }
+            ],
+            "pidx:InvoiceTypeCode": "ProductOrService",
+            "pidx:PurchaseOrderInformation": {
+                "pidx:PurchaseOrderNumber": 4503570239,
+                "pidx:PurchaseOrderIssuedDate": "2018-01-10",
+                "pidx:SalesOrderNumber": "0008966551"
+            },
+            "pidx:FieldTicketInformation": {"pidx:FieldTicketNumber": "0075773225"},
+            "pidx:PrimaryCurrency": {"pidx:CurrencyCode": "USD"},
+            "pidx:LanguageCode": "EN",
+            "pidx:RateOfExchangeDetail": {
+                "pidx:ReferenceCurrency": {"pidx:CurrencyCode": "USD"},
+                "pidx:TargetCurrency": {"pidx:CurrencyCode": "NOK"},
+                "pidx:ExchangeRate": 7.80922
+            },
+            "pidx:JobLocationInformation": {
+                "pidx:JobLocationClassCode": "FederalWaters",
+                "pidx:JobLocationDescription": "",
+                "pidx:WellInformation": {
+                    "pidx:WellIdentifier": {
+                        "wellIdentifierIndicator": "CustomerWellNumber",
+                        "#text": "B-28"
+                    },
+                    "pidx:WellName": "B-28"
+                },
+                "pidx:GeographicalInformation": {"pidx:FieldName": "STATFJORD"}
+            },
+            "pidx:ServiceDateTime": [
+                {
+                    "dateTypeIndicator": "ServicePeriodStart",
+                    "#text": "2021-06-01T00:00:00"
+                },
+                {
+                    "dateTypeIndicator": "ServicePeriodEnd",
+                    "#text": "2021-06-01T00:00:00"
+                }
+            ],
+            "pidx:PaymentTerms": {
+                "pidx:PaymentTermsOfSale": "Other",
+                "pidx:Description": "Up to 01.07.2018 without deduction",
+                "pidx:PaymentTermsBasisDateCode": "InvoiceDate",
+                "pidx:PaymentTermsBasisDate": "2018-03-01",
+                "pidx:TermsNetDays": 30,
+                "pidx:PercentOfInvoicePayable": 100
+            },
+            "pidx:Attachment": {
+                "pidx:AttachmentPurposeCode": "Other",
+                "pidx:AttachmentLocation": "https://www.bakerhughesdirect.com/cgi/BSN/java/BSN/registration/shortCut.do?shortcut=BSNDOC&payload=invoice%3D6IvrPVBTCrFXxGvnGXHwwWoRRtwD"
+            },
+            "pidx:Comment": "Well: B-28 Field: STATFJORD Lease: 33",
+            "EmissionsData": {
+                "EmissionQuantity": "240KG",
+                "EmissionQuantityID": "CO2E",
+                "EmissionMaterialTypeName": "DrillBits",
+                "EmissionRecordingMethodTypeID": "OFP-001A",
+                "EmissionSourceTypeID": "Summary of Manufactured Total Emissions"
+            }
+        },
+        "pidx:InvoiceDetails": {
+            "pidx:InvoiceLineItem": [
+                {
+                    "pidx:LineItemNumber": 1,
+                    "pidx:InvoiceQuantity": {
+                        "pidx:Quantity": 1,
+                        "pidx:UnitOfMeasureCode": "EA"
+                    },
+                    "pidx:LineItemInformation": {
+                        "pidx:LineItemIdentifier": {
+                            "identifierIndicator": "AssignedBySeller",
+                            "#text": "PartNumber-001"
+                        },
+                        "pidx:LineItemName": "GP PKR, SC-2R 70A4-40,1157237/01",
+                        "pidx:LineItemDescription": "GP PKR, SC-2R 70A4-40,1157237/01",
+                        "pidx:ManufacturerIdentifier": "Serial-001"
+                    },
+                    "pidx:FieldTicketInformation": {"pidx:FieldTicketNumber": "0075773225"},
+                    "pidx:PartnerInformation": [
+                        {
+                            "partnerRoleIndicator": "ShipToParty",
+                            "pidx:PartnerIdentifier": {
+                                "partnerIdentifierIndicator": "AssignedBySeller",
+                                "#text": "0040118964"
+                            },
+                            "pidx:PartnerName": "Big Oil Petroleum AS",
+                            "pidx:AddressInformation": {
+                                "pidx:AddressLine": "MONGSTAD BASE",
+                                "pidx:CityName": "MONGSTAD",
+                                "pidx:PostalCode": 5954,
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        },
+                        {
+                            "partnerRoleIndicator": "ShipFromParty",
+                            "pidx:PartnerIdentifier": {
+                                "partnerIdentifierIndicator": "AssignedBySeller",
+                                "#text": "0234"
+                            },
+                            "pidx:PartnerName": "BSN, Norway VANSTANGER",
+                            "pidx:AddressInformation": {
+                                "pidx:AddressLine": "ANTANGERveien 501",
+                                "pidx:CityName": "ANTANGER",
+                                "pidx:PostalCode": 4056,
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        }
+                    ],
+                    "pidx:JobLocationInformation": {
+                        "pidx:JobLocationDescription": "B-28",
+                        "pidx:WellInformation": {
+                            "pidx:WellIdentifier": {
+                                "wellIdentifierIndicator": "CustomerWellNumber",
+                                "#text": "B-28"
+                            },
+                            "pidx:WellName": "B-28"
+                        },
+                        "pidx:GeographicalInformation": {"pidx:FieldName": "STATFJORD"}
+                    },
+                    "pidx:Pricing": {
+                        "pidx:UnitPrice": {
+                            "pidx:MonetaryAmount": 32809.85,
+                            "pidx:UnitOfMeasureCode": "EA",
+                            "pidx:CurrencyCode": "USD"
+                        },
+                        "pidx:PriceBasis": {
+                            "pidx:Measurement": 1,
+                            "pidx:UnitOfMeasureCode": "EA"
+                        }
+                    },
+                    "pidx:Tax": {
+                        "pidx:TaxTypeCode": "ValueAddedTax",
+                        "pidx:TaxIdentifierNumber": "",
+                        "pidx:TaxExemptCode": "DirectPay",
+                        "pidx:TaxLocation": {
+                            "pidx:LocationIdentifier": "V0",
+                            "pidx:AddressInformation": {
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        },
+                        "pidx:TaxRate": 0,
+                        "pidx:TaxBasisAmount": {
+                            "pidx:MonetaryAmount": 32809.85,
+                            "pidx:CurrencyCode": "USD"
+                        },
+                        "pidx:TaxAmount": {
+                            "pidx:MonetaryAmount": 0,
+                            "pidx:CurrencyCode": "USD"
+                        }
+                    },
+                    "pidx:LineItemTotal": {
+                        "pidx:MonetaryAmount": 32809.85,
+                        "pidx:CurrencyCode": "USD"
+                    },
+                    "pidx:ServiceDateTime": [
+                        {
+                            "dateTypeIndicator": "ShippedDate",
+                            "#text": "2021-05-28T00:00:00"
+                        },
+                        {
+                            "dateTypeIndicator": "ServicePeriodStart",
+                            "#text": "2021-06-01T00:00:00"
+                        },
+                        {
+                            "dateTypeIndicator": "ServicePeriodEnd",
+                            "#text": "2021-06-01T00:00:00"
+                        }
+                    ],
+                    "pidx:ReferenceInformation": {
+                        "referenceInformationIndicator": "DeliveryTicketNumber",
+                        "pidx:ReferenceNumber": "0075773225",
+                        "pidx:Description": "JobNumber"
+                    },
+                    "pidx:Comment": "Job Summary: BSN, Norway VANSTANGER",
+                    "EmissionsData": {
+                        "EmissionQuantity": "90KG",
+                        "EmissionQuantityID": "CO2E",
+                        "EmissionMaterialTypeName": "DrillBit",
+                        "EmissionRecordingMethodTypeID": "OFP-001A",
+                        "EmissionSourceTypeID": "Manufactured Total Emissions"
+                    }
+                },
+                {
+                    "pidx:LineItemNumber": 2,
+                    "pidx:InvoiceQuantity": {
+                        "pidx:Quantity": 1,
+                        "pidx:UnitOfMeasureCode": "EA"
+                    },
+                    "pidx:LineItemInformation": {
+                        "pidx:LineItemIdentifier": {
+                            "identifierIndicator": "AssignedBySeller",
+                            "#text": "PartNumber-002"
+                        },
+                        "pidx:LineItemName": "GP EXT  CS 80-40 5.5\",1157240",
+                        "pidx:LineItemDescription": "GP EXT  CS 80-40 5.5\",1157240",
+                        "pidx:ManufacturerIdentifier": "Serial-002"
+                    },
+                    "pidx:FieldTicketInformation": {"pidx:FieldTicketNumber": "0075773225"},
+                    "pidx:PartnerInformation": [
+                        {
+                            "partnerRoleIndicator": "ShipToParty",
+                            "pidx:PartnerIdentifier": {
+                                "partnerIdentifierIndicator": "AssignedBySeller",
+                                "#text": "0040118964"
+                            },
+                            "pidx:PartnerName": "Big Oil Petroleum AS",
+                            "pidx:AddressInformation": {
+                                "pidx:AddressLine": "MONGSTAD BASE",
+                                "pidx:CityName": "MONGSTAD",
+                                "pidx:PostalCode": 5954,
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        },
+                        {
+                            "partnerRoleIndicator": "ShipFromParty",
+                            "pidx:PartnerIdentifier": {
+                                "partnerIdentifierIndicator": "AssignedBySeller",
+                                "#text": "0234"
+                            },
+                            "pidx:PartnerName": "BSN, Norway VANSTANGER",
+                            "pidx:AddressInformation": {
+                                "pidx:AddressLine": "ANTANGERveien 501",
+                                "pidx:CityName": "ANTANGER",
+                                "pidx:PostalCode": 4056,
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        }
+                    ],
+                    "pidx:JobLocationInformation": {
+                        "pidx:JobLocationDescription": "B-28",
+                        "pidx:WellInformation": {
+                            "pidx:WellIdentifier": {
+                                "wellIdentifierIndicator": "CustomerWellNumber",
+                                "#text": "B-28"
+                            },
+                            "pidx:WellName": "B-28"
+                        },
+                        "pidx:GeographicalInformation": {"pidx:FieldName": "STATFJORD"}
+                    },
+                    "pidx:Pricing": {
+                        "pidx:UnitPrice": {
+                            "pidx:MonetaryAmount": 0,
+                            "pidx:UnitOfMeasureCode": "EA",
+                            "pidx:CurrencyCode": "USD"
+                        },
+                        "pidx:PriceBasis": {
+                            "pidx:Measurement": 1,
+                            "pidx:UnitOfMeasureCode": "EA"
+                        }
+                    },
+                    "pidx:Tax": {
+                        "pidx:TaxTypeCode": "ValueAddedTax",
+                        "pidx:TaxIdentifierNumber": "",
+                        "pidx:TaxExemptCode": "DirectPay",
+                        "pidx:TaxLocation": {
+                            "pidx:LocationIdentifier": "V0",
+                            "pidx:AddressInformation": {
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        },
+                        "pidx:TaxRate": 0,
+                        "pidx:TaxBasisAmount": {
+                            "pidx:MonetaryAmount": 0,
+                            "pidx:CurrencyCode": "USD"
+                        },
+                        "pidx:TaxAmount": {
+                            "pidx:MonetaryAmount": 0,
+                            "pidx:CurrencyCode": "USD"
+                        }
+                    },
+                    "pidx:LineItemTotal": {
+                        "pidx:MonetaryAmount": 0,
+                        "pidx:CurrencyCode": "USD"
+                    },
+                    "pidx:ServiceDateTime": [
+                        {
+                            "dateTypeIndicator": "ShippedDate",
+                            "#text": "2021-05-28T00:00:00"
+                        },
+                        {
+                            "dateTypeIndicator": "ServicePeriodStart",
+                            "#text": "2018-06-01T00:00:00"
+                        },
+                        {
+                            "dateTypeIndicator": "ServicePeriodEnd",
+                            "#text": "2018-06-01T00:00:00"
+                        }
+                    ],
+                    "pidx:ReferenceInformation": {
+                        "referenceInformationIndicator": "DeliveryTicketNumber",
+                        "pidx:ReferenceNumber": "0075773225",
+                        "pidx:Description": "JobNumber"
+                    },
+                    "pidx:Comment": "Job Summary: BSN, Norway VANSTANGER",
+                    "EmissionsData": {
+                        "EmissionQuantity": "70KG",
+                        "EmissionQuantityID": "CO2E",
+                        "EmissionMaterialTypeName": "DrillBit",
+                        "EmissionRecordingMethodTypeID": "OFP-001A",
+                        "EmissionSourceTypeID": "Manufactured Total Emissions"
+                    }
+                },
+                {
+                    "pidx:LineItemNumber": 3,
+                    "pidx:InvoiceQuantity": {
+                        "pidx:Quantity": 1,
+                        "pidx:UnitOfMeasureCode": "EA"
+                    },
+                    "pidx:LineItemInformation": {
+                        "pidx:LineItemIdentifier": {
+                            "identifierIndicator": "AssignedBySeller",
+                            "#text": "PartNumber-003"
+                        },
+                        "pidx:LineItemName": " XO, 5\"18#VTHC B X 4.5\"12.6#  1139701",
+                        "pidx:LineItemDescription": " XO, 5\"18#VTHC B X 4.5\"12.6#  1139701",
+                        "pidx:ManufacturerIdentifier": "Serial-003"
+                    },
+                    "pidx:FieldTicketInformation": {"pidx:FieldTicketNumber": "0075773225"},
+                    "pidx:PartnerInformation": [
+                        {
+                            "partnerRoleIndicator": "ShipToParty",
+                            "pidx:PartnerIdentifier": {
+                                "partnerIdentifierIndicator": "AssignedBySeller",
+                                "#text": "0040118964"
+                            },
+                            "pidx:PartnerName": "Big Oil Petroleum AS",
+                            "pidx:AddressInformation": {
+                                "pidx:AddressLine": "MONGSTAD BASE",
+                                "pidx:CityName": "MONGSTAD",
+                                "pidx:PostalCode": 5954,
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        },
+                        {
+                            "partnerRoleIndicator": "ShipFromParty",
+                            "pidx:PartnerIdentifier": {
+                                "partnerIdentifierIndicator": "AssignedBySeller",
+                                "#text": "0234"
+                            },
+                            "pidx:PartnerName": "BSN, Norway VANSTANGER",
+                            "pidx:AddressInformation": {
+                                "pidx:AddressLine": "ANTANGERveien 501",
+                                "pidx:CityName": "ANTANGER",
+                                "pidx:PostalCode": 4056,
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        }
+                    ],
+                    "pidx:JobLocationInformation": {
+                        "pidx:JobLocationDescription": "B-28",
+                        "pidx:WellInformation": {
+                            "pidx:WellIdentifier": {
+                                "wellIdentifierIndicator": "CustomerWellNumber",
+                                "#text": "B-28"
+                            },
+                            "pidx:WellName": "B-28"
+                        },
+                        "pidx:GeographicalInformation": {"pidx:FieldName": "STATFJORD"}
+                    },
+                    "pidx:Pricing": {
+                        "pidx:UnitPrice": {
+                            "pidx:MonetaryAmount": 0,
+                            "pidx:UnitOfMeasureCode": "EA",
+                            "pidx:CurrencyCode": "USD"
+                        },
+                        "pidx:PriceBasis": {
+                            "pidx:Measurement": 1,
+                            "pidx:UnitOfMeasureCode": "EA"
+                        }
+                    },
+                    "pidx:Tax": {
+                        "pidx:TaxTypeCode": "ValueAddedTax",
+                        "pidx:TaxIdentifierNumber": "",
+                        "pidx:TaxExemptCode": "DirectPay",
+                        "pidx:TaxLocation": {
+                            "pidx:LocationIdentifier": "V0",
+                            "pidx:AddressInformation": {
+                                "pidx:PostalCountry": {"pidx:CountryCode": "NO"}
+                            }
+                        },
+                        "pidx:TaxRate": 0,
+                        "pidx:TaxBasisAmount": {
+                            "pidx:MonetaryAmount": 0,
+                            "pidx:CurrencyCode": "USD"
+                        },
+                        "pidx:TaxAmount": {
+                            "pidx:MonetaryAmount": 0,
+                            "pidx:CurrencyCode": "USD"
+                        }
+                    },
+                    "pidx:LineItemTotal": {
+                        "pidx:MonetaryAmount": 0,
+                        "pidx:CurrencyCode": "USD"
+                    },
+                    "pidx:ServiceDateTime": [
+                        {
+                            "dateTypeIndicator": "ShippedDate",
+                            "#text": "2021-05-28T00:00:00"
+                        },
+                        {
+                            "dateTypeIndicator": "ServicePeriodStart",
+                            "#text": "2021-06-01T00:00:00"
+                        },
+                        {
+                            "dateTypeIndicator": "ServicePeriodEnd",
+                            "#text": "2021-06-01T00:00:00"
+                        }
+                    ],
+                    "pidx:ReferenceInformation": {
+                        "referenceInformationIndicator": "DeliveryTicketNumber",
+                        "pidx:ReferenceNumber": "0075773225",
+                        "pidx:Description": "JobNumber"
+                    },
+                    "pidx:Comment": "Job Summary: BSN, Norway VANSTANGER",
+                    "EmissionsData": {
+                        "EmissionQuantity": "80KG",
+                        "EmissionQuantityID": "CO2E",
+                        "EmissionMaterialTypeName": "DrillBit",
+                        "EmissionRecordingMethodTypeID": "OFP-001A",
+                        "EmissionSourceTypeID": "Manufactured Total Emissions"
+                    }
+                }
+            ]
+        },
+        "pidx:InvoiceSummary": {
+            "pidx:TotalLineItems": 3,
+            "pidx:InvoiceTotal": {
+                "pidx:MonetaryAmount": 32809.85,
+                "pidx:CurrencyCode": "USD"
+            },
+            "pidx:Tax": {
+                "pidx:TaxTypeCode": "ValueAddedTax",
+                "pidx:TaxBasisAmount": {
+                    "pidx:MonetaryAmount": 0,
+                    "pidx:CurrencyCode": "USD"
+                },
+                "pidx:TaxAmount": {
+                    "pidx:MonetaryAmount": 0,
+                    "pidx:CurrencyCode": "USD"
+                },
+                "pidx:TaxReference": "VAT"
+            }
+        }
+    }
+}
